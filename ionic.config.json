@@ -1,0 +1,7 @@
+{
+  "name": "My character drawer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
