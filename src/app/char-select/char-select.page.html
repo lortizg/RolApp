@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>char-select</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="filas" >
+    <ion-row *ngFor="let personaje of personajes">
+      <ion-col>
+        <ion-card href="../charas/tab1">
+          <ion-card-title>Nombre: {{personaje}}</ion-card-title>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+  </div>
+</ion-content>
